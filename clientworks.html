@@ -39,6 +39,7 @@
       img {
           margin-top: 4em;
           max-width: 100%;
+          height: auto;
           display: block;
           margin: 0 auto;
       }
@@ -52,7 +53,7 @@
           flex-wrap: wrap;
       }
       li {
-          width: 50%;
+          width: 100%;
           text-align: center;
           margin: 2em 0;
       }
@@ -63,10 +64,13 @@
       .social-icon:hover {
           color: #1da1f2;
       }
+      @media (min-width: 600px) {
+          li {
+              width: 48%;
+              margin: 1em;
+          }
+      }
   </style>
-</head>
-<head>
-  <title>client works</title>
 </head>
 <body>
   <h1>Client Works</h1>
@@ -76,20 +80,20 @@
         <img src="https://img.youtube.com/vi/u6zG3uJrZ5w/mqdefault.jpg" alt="Green Music produced by Zuric">
         <h2>Green Music produced by Zuric</h2>
       </a>
-      <p>provided music.</p>
+      <p>Provided music.</p>
     </li>
     <li>
       <a href="https://audiobook.jp/product/264787">
-        <img src="FXDDPpPUYAENbfx.jpeg" alt="サムネイル2" width="200" height="250">
-        <h2>Audiobook's music</h2>
+        <img src="FXDDPpPUYAENbfx.jpeg" alt="Audiobook's music" width="200" height="250">
+        <h2>Audiobook's Music</h2>
       </a>
-      <p>Participated as a member of チームえる。one of the arrangers/music supervision</p>
+      <p>Participated as a member of チームえる, one of the arrangers/music supervision.</p>
     </li>
   </ul>
   <ul>
     <li>
       <a href="https://www.j-wave.co.jp/original/radiosakamoto/songlist/220904.htm">
-        <img src="sakamoto.jpg" alt="サムネイル2" width="250" height="250">
+        <img src="sakamoto.jpg" alt="RADIO SAKAMOTO 220904" width="250" height="250">
         <h2>RADIO SAKAMOTO 220904</h2>
       </a>
       <p>A song is featured in the playlist.</p>
@@ -99,38 +103,40 @@
        <img src="https://img.youtube.com/vi/B6ajOKObfZM/mqdefault.jpg" alt="YouTube Video Thumbnail">
         <h2>Music for "Architecture that is Reclaimed by Nature"</h2>
       </a>
-      <p>Provide music.</p>
+      <p>Provided music.</p>
     </li>
   </ul>
-    <ul>
+  <ul>
     <li>
       <a href="https://www.instagram.com/untitledproject_01/">
-        <img src="Murhus graphic.jpg" alt="サムネイル2" width="250" height="250">
-        <h2>BGM for untiteledproject_01</h2>
+        <img src="Murhus graphic.jpg" alt="BGM for untitledproject_01" width="250" height="250">
+        <h2>BGM for untitledproject_01</h2>
       </a>
-      <p>Provide music for their ig posts</p>
+      <p>Provided music for their IG posts.</p>
+    </li>
     <li>
       <a href="https://open.spotify.com/playlist/5u2xZQfkx50CNlYpAIfRRA?si=e96e4f1a12ac4893">
-        <img src="ogp.png" alt="サムネイル2" width="250" height="250">
+        <img src="ogp.png" alt="Playlist for ARTS&SCIENCE" width="250" height="250">
         <h2>Playlist for ARTS&SCIENCE</h2>
       </a>
-      <p>Made a playlist with Ryuichi Sakamoto</p>
+      <p>Made a playlist with Ryuichi Sakamoto.</p>
     </li>
-   </ul> 
- <ul>
+  </ul>
+  <ul>
     <li>
       <a href="https://vie.style/">
-        <img src="vietunes.png" alt="サムネイル2" width="250" height="250">
+        <img src="vietunes.png" alt="Original album for VIE Tunes" width="250" height="250">
         <h2>Original album for VIE Tunes</h2>
       </a>
-      <p>Provide original album</p>
-      <li>
+      <p>Provided original album.</p>
+    </li>
+    <li>
       <h2>Some audio logo samples</h2>
       <audio controls>
         <source src="sample.mp3" type="audio/mpeg">
         Your browser does not support the audio element.
       </audio>
     </li>
-   </ul> 
+  </ul> 
 </body>
 </html>
